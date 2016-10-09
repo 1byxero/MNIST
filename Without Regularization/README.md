@@ -1,26 +1,39 @@
-Dataset: MNIST digit recongnition
-Note: the original dataset has been tweaked to meet the torch requirements. The labels of all training images with of digit '0' are changed to '10'
+Dataset: [MNIST digit recognition](http://yann.lecun.com/exdb/mnist/) 
+------------------------------------------------------------------------
+Neural network for MNIST digit recognition implemented in [Torch7](http://torch.ch/)
 
-Learning Algorithm: Neural Network with Stochastic Gradient
+Note: the original dataset has been tweaked to meet the torch requirements. The labels of all training images of digit '0' are changed to '10'
 
-Neural Network profile:
+###Learning Algorithm:
+**Neural Network with Stochastic Gradient**
+
+
+###Neural Network profile:
+
 3 Layer network 
+
 784 nodes at Input Layer
+
 100 nodes at Hidden Layer
+
 10 nodes at output Layer
 
-Activation function: Sigmoid
-Output function: LogSoftMax
-Loss function: Negative Log Likelihood
-Training Epoch: 5
-Regularization: Not used
+####Activation function:
+Sigmoid
 
-epoch 1 error = 1.7188340870454	
-epoch 2 error = 1.5771125041969	
-epoch 3 error = 1.6148196502816	
-epoch 4 error = 1.4768090130265	
-epoch 5 error = 1.3352091500041	
+####Output function:
+LogSoftMax
 
-Final training error = 1.3352091500041	
+####Loss function:
+Negative Log Likelihood
 
-Testset Accuracy = 64.08%
+####Training Epoch:
+5
+
+####Regularization:
+Not used
+
+
+####Trainset error: **1.3352%**
+
+####Testset accuracy: **64.08%**
