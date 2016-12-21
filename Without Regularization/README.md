@@ -2,6 +2,8 @@ Dataset: [MNIST digit recognition](http://yann.lecun.com/exdb/mnist/)
 ------------------------------------------------------------------------
 Neural network for MNIST digit recognition implemented in [Torch7](http://torch.ch/)
 
+Note: **This is outdated readme. It will soon be updated**
+
 Note: the original dataset has been tweaked to meet the torch requirements. The labels of all training images of digit '0' are changed to '10'
 
 ###Learning Algorithm:
