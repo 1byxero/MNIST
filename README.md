@@ -5,7 +5,7 @@ All the models are built using [Torch](http://torch.ch/) framework and [built in
 
 Click on following links for more information
 
-[Convolutional Neural Network model](https://github.com/1byxero/MNIST/blob/master/CNN/readme.md)
+[Convolutional Neural Network model](https://github.com/1byxero/MNIST/blob/master/CNN/README.md)
 
 [Regularised Neural Network model](https://github.com/1byxero/MNIST/blob/master/With%20Regularization/readme.md)
 
