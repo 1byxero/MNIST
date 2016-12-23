@@ -1,7 +1,7 @@
 ##Neural Network models with L2 regularization
 
 * Loss Function: Negative Log Likelihood
-* Leaning Algorithm: Stochastic Gradient
+* Learning Algorithm: Stochastic Gradient
 
 | Architecture | Activations | Epochs | L2 regularization weight | Train Error | CV Accuracy |
 | --- | --- | --- | --- | --- | --- |
